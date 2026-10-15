@@ -157,10 +157,6 @@ su único canal de salida es esta clase, y la consola lo aprovecha para capturar
 > los barcos vivos. Si cambian, solo hay que ajustar `BattleshipAdapter`, nunca
 > el juego.
 
-### Verificación de que el código original no se tocó
-
-Los cuatro archivos de `src/battleship/` son idénticos a los del zip original
-(comprobado con `diff -r`).
 
 ## Buenas prácticas aplicadas
 
