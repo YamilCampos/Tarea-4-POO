@@ -152,10 +152,6 @@ respetando exactamente las firmas que el juego usa:
 `GestorEstadisticas` es además el **punto de acople**: como el juego devuelve `void`,
 su único canal de salida es esta clase, y la consola lo aprovecha para capturar el resultado.
 
-> Si el compañero te pasa sus versiones reales de `main` y `stats`, puedes reemplazar
-> las de este proyecto, siempre que el adaptador siga pudiendo obtener la duración y
-> los barcos vivos. Si cambian, solo hay que ajustar `BattleshipAdapter`, nunca
-> el juego.
 
 
 ## Buenas prácticas aplicadas
